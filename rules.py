@@ -820,4 +820,10 @@ RULES = {
         "alias": "cpe:/a:monkey-project:monkey_http_daemon",
         "type": "cpe"
     },
+    "Express": {
+        "regex": "X-Powered-By:\\s*Express",
+        "alias": "cpe:/a:expressjs:express",
+        "type": "cpe"
+    },
+    
 }
