@@ -818,10 +818,5 @@
         "regex": "Server:\\s*Monkey/?([\\d.]+)",
         "alias": "cpe:/a:monkey-project:monkey_http_daemon",
         "type": "cpe"
-      },
-      "ExpressJS": {
-        "regex": "X-Powered-By:\\s*Express",
-        "alias": "cpe:/a:expressjs:express",
-        "type": "cpe"
       }
 }
