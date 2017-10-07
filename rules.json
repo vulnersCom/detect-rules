@@ -274,11 +274,6 @@
     "regexp": "Server:\\s*GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?",
     "type": "cpe"
   },
-  "Gogs, html": {
-    "alias": "cpe:/a:gogits:gogs",
-    "regexp": "<div class=\"ui left\">\n\\s+\u00a9 \\d{4} Gogs Version: ([\\d.]+) Page:",
-    "type": "cpe"
-  },
   "Google Maps, script": {
     "alias": "Google Maps Api",
     "regexp": "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)",
