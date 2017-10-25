@@ -1,852 +1,857 @@
 {
   "3DM, html": {
     "alias": "3ware",
-    "regexp": "<title>3ware 3DM([\\d\\.]+)?",
+    "regex": "<title>3ware 3DM([\\d\\.]+)?",
     "type": "software"
   },
   "3ware, headers": {
     "alias": "3ware",
-    "regexp": "Server:\\s*3ware\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*3ware\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "AMPcms, headers": {
     "alias": "AMP CMS",
-    "regexp": "X-AMP-Version:\\s*([\\d.]+)",
+    "regex": "X-AMP-Version:\\s*([\\d.]+)",
     "type": "software"
   },
   "AOLserver, headers": {
     "alias": "cpe:/a:aol:aolserver",
-    "regexp": "Server:\\s*AOLserver/?([\\d.]+)?",
+    "regex": "Server:\\s*AOLserver/?([\\d.]+)?",
     "type": "cpe"
   },
   "ATEN, headers": {
     "alias": "ATEN",
-    "regexp": "Server:\\s*ATEN HTTP Server(?:\\(?V?([\\d\\.]+)\\)?)?",
+    "regex": "Server:\\s*ATEN HTTP Server(?:\\(?V?([\\d\\.]+)\\)?)?",
     "type": "software"
   },
   "Adminer, html": {
     "alias": "Adminer",
-    "regexp": "Adminer</a> <span class=\"version\">([\\d.]+)</span>",
+    "regex": "Adminer</a> <span class=\"version\">([\\d.]+)</span>",
     "type": "software"
   },
   "Adminer, html tag": {
     "alias": "Adminer",
-    "regexp": "onclick=\"bodyClick\\(event\\);\" onload=\"verifyVersion\\('([\\d.]+)'\\);\">",
+    "regex": "onclick=\"bodyClick\\(event\\);\" onload=\"verifyVersion\\('([\\d.]+)'\\);\">",
     "type": "software"
   },
   "Akka HTTP, headers": {
     "alias": "Akka HTTP",
-    "regexp": "Server:\\s*akka-http(?:/([\\d.]+))?",
+    "regex": "Server:\\s*akka-http(?:/([\\d.]+))?",
     "type": "software"
   },
   "Allegro RomPager, headers": {
     "alias": "cpe:/a:allegrosoft:rompager",
-    "regexp": "Server:\\s*Allegro-Software-RomPager(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Allegro-Software-RomPager(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Angular Material, script": {
     "alias": "Angular Material",
-    "regexp": "/([\\d.]+(?:\\-?rc[.\\d]*)*)/angular-material(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+(?:\\-?rc[.\\d]*)*)/angular-material(?:\\.min)?\\.js",
     "type": "software"
   },
   "AngularJS, script": {
     "alias": "Angular",
-    "regexp": "/([\\d.]+(?:\\-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+(?:\\-?rc[.\\d]*)*)/angular(?:\\.min)?\\.js",
     "type": "software"
   },
   "Apache, headers": {
     "alias": "httpd",
-    "regexp": "Server:\\s*(?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\b)HTTPD)",
+    "regex": "Server:\\s*(?:Apache(?:$|/([\\d.]+)|[^/-])|(?:^|\b)HTTPD)",
     "type": "software"
   },
   "Apache Tomcat, headers": {
     "alias": "cpe:/a:apache:tomcat",
-    "regexp": "X-Powered-By:\\s*\bTomcat\b(?:-([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*\bTomcat\b(?:-([\\d.]+))?",
     "type": "cpe"
   },
   "Apache Traffic Server, headers": {
     "alias": "cpe:/a:apache:traffic_server",
-    "regexp": "Server:\\s*ATS/?([\\d.]+)?",
+    "regex": "Server:\\s*ATS/?([\\d.]+)?",
     "type": "cpe"
   },
   "Artifactory, html": {
     "alias": "cpe:/a:jfrog:artifactory",
-    "regexp": "<span class=\"version\">Artifactory(?: Pro)?(?: Power Pack)?(?: ([\\d.]+))?",
+    "regex": "<span class=\"version\">Artifactory(?: Pro)?(?: Power Pack)?(?: ([\\d.]+))?",
     "type": "cpe"
   },
   "Artifactory Web Server, headers": {
     "alias": "cpe:/a:jfrog:artifactory",
-    "regexp": "Server:\\s*Artifactory(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Artifactory(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Atlassian Confluence, html": {
     "alias": "cpe:/a:atlassian:confluence",
-    "regexp": "Powered by <a href=[^>]+atlassian\\.com/software/confluence(?:[^>]+>Atlassian Confluence</a> ([\\d.]+))?",
+    "regex": "Powered by <a href=[^>]+atlassian\\.com/software/confluence(?:[^>]+>Atlassian Confluence</a> ([\\d.]+))?",
     "type": "cpe"
   },
   "Atlassian FishEye, html": {
     "alias": "cpe:/a:atlassian:fisheye",
-    "regexp": "<title>(?:Log in to )?FishEye (?:and Crucible )?([\\d.]+)?</title>",
+    "regex": "<title>(?:Log in to )?FishEye (?:and Crucible )?([\\d.]+)?</title>",
     "type": "cpe"
   },
   "Banshee, html": {
     "alias": "cpe:/a:banshee-project:banshee",
-    "regexp": "Built upon the <a href=\"[^>]+banshee-php\\.org/\">[a-z]+</a>(?:v([\\d.]+))?",
+    "regex": "Built upon the <a href=\"[^>]+banshee-php\\.org/\">[a-z]+</a>(?:v([\\d.]+))?",
     "type": "cpe"
   },
   "BaseHTTP, headers": {
     "alias": "BaseHTTP",
-    "regexp": "Server:\\s*BaseHTTP\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*BaseHTTP\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "Canon HTTP Server, headers": {
     "alias": "Canon HTTP Server",
-    "regexp": "Server:\\s*CANON HTTP Server(?:/([\\d.]+))?",
+    "regex": "Server:\\s*CANON HTTP Server(?:/([\\d.]+))?",
     "type": "software"
   },
   "Catwalk, headers": {
     "alias": "Catwalk Server",
-    "regexp": "Server:\\s*Catwalk\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*Catwalk\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "CenteHTTPd, headers": {
     "alias": "CenteHTTPd",
-    "regexp": "Server:\\s*CenteHTTPd(?:/([\\d.]+))?",
+    "regex": "Server:\\s*CenteHTTPd(?:/([\\d.]+))?",
     "type": "software"
   },
   "Chamilo, headers": {
     "alias": "cpe:/a:chamilo:chamilo_lms",
-    "regexp": "X-Powered-By:\\s*Chamilo ([\\d.]+)",
+    "regex": "X-Powered-By:\\s*Chamilo ([\\d.]+)",
     "type": "cpe"
   },
   "Chamilo, html": {
     "alias": "cpe:/a:chamilo:chamilo_lms",
-    "regexp": "\">Chamilo ([\\d.]+)</a>",
+    "regex": "\">Chamilo ([\\d.]+)</a>",
     "type": "cpe"
   },
   "Chart.js, script": {
     "alias": "Chart.js",
-    "regexp": "chartjs\\.org/dist/([\\d.]+(?:-[^/]+)?|master|latest)/Chart.*\\.js",
+    "regex": "chartjs\\.org/dist/([\\d.]+(?:-[^/]+)?|master|latest)/Chart.*\\.js",
     "type": "software"
   },
   "Chart.js, cloudflare script": {
     "alias": "Chart.js",
-    "regexp": "cdnjs\\.cloudflare\\.com/ajax/libs/Chart\\.js/([\\d.]+(?:-[^/]+)?)/Chart.*\\.js",
+    "regex": "cdnjs\\.cloudflare\\.com/ajax/libs/Chart\\.js/([\\d.]+(?:-[^/]+)?)/Chart.*\\.js",
     "type": "software"
   },
   "Chart.js, jsdelivr script": {
     "alias": "Chart.js",
-    "regexp": "cdn\\.jsdelivr\\.net/npm/chart\\.js@([\\d.]+(?:-[^/]+)?|latest)/dist/Chart.*\\.js",
+    "regex": "cdn\\.jsdelivr\\.net/npm/chart\\.js@([\\d.]+(?:-[^/]+)?|latest)/dist/Chart.*\\.js",
     "type": "software"
   },
   "Chart.js, jsdelivr latest script": {
     "alias": "Chart.js",
-    "regexp": "cdn\\.jsdelivr\\.net/gh/chartjs/Chart\\.js@([\\d.]+(?:-[^/]+)?|latest)/dist/Chart.*\\.js",
+    "regex": "cdn\\.jsdelivr\\.net/gh/chartjs/Chart\\.js@([\\d.]+(?:-[^/]+)?|latest)/dist/Chart.*\\.js",
     "type": "software"
   },
   "Cherokee, headers": {
     "alias": "cpe:/a:cherokee-project:cherokee",
-    "regexp": "Server:\\s*Cherokee/([\\d.]+)",
+    "regex": "Server:\\s*Cherokee/([\\d.]+)",
     "type": "cpe"
   },
   "CherryPy, headers": {
     "alias": "cpe:/a:cherrypy:cherrypy",
-    "regexp": "Server:\\s*CherryPy\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*CherryPy\\/?([\\d\\.]+)?",
     "type": "cpe"
   },
   "CompaqHTTPServer, headers": {
     "alias": "cpe:/a:compaq:compaqhttpserver",
-    "regexp": "Server:\\s*CompaqHTTPServer\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*CompaqHTTPServer\\/?([\\d\\.]+)?",
     "type": "cpe"
   },
   "Coppermine, html": {
     "alias": "cpe:/a:coppermine-gallery:coppermine_photo_gallery",
-    "regexp": "<!--Coppermine Photo Gallery ([\\d.]+)",
+    "regex": "<!--Coppermine Photo Gallery ([\\d.]+)",
     "type": "cpe"
   },
   "CouchDB, headers": {
     "alias": "cpe:/a:apache:couchdb",
-    "regexp": "Server:\\s*CouchDB/([\\d.]+)",
+    "regex": "Server:\\s*CouchDB/([\\d.]+)",
     "type": "cpe"
   },
   "CppCMS, headers": {
     "alias": "CppCMS",
-    "regexp": "X-Powered-By:\\s*CppCMS/([\\d.]+)",
+    "regex": "X-Powered-By:\\s*CppCMS/([\\d.]+)",
     "type": "software"
   },
   "Dancer, headers": {
     "alias": "cpe:/a:dancer:dancer",
-    "regexp": "Server:\\s*Perl Dancer ([\\d.]+)|X-Powered-By:\\s*Perl Dancer ([\\d.]+)",
+    "regex": "Server:\\s*Perl Dancer ([\\d.]+)|X-Powered-By:\\s*Perl Dancer ([\\d.]+)",
     "type": "cpe"
   },
   "Danneo CMS, headers": {
     "alias": "cpe:/a:danneo:cms",
-    "regexp": "X-Powered-By:\\s*CMS Danneo ([\\d.]+)",
+    "regex": "X-Powered-By:\\s*CMS Danneo ([\\d.]+)",
     "type": "cpe"
   },
   "Decorum, headers": {
     "alias": "Decorum",
-    "regexp": "Server:\\s*DECORUM(?:/([\\d.]+))?",
+    "regex": "Server:\\s*DECORUM(?:/([\\d.]+))?",
     "type": "software"
   },
   "DirectAdmin, headers": {
     "alias": "cpe:/a:directadmin:directadmin",
-    "regexp": "Server:\\s*DirectAdmin Daemon v([\\d.]+)",
+    "regex": "Server:\\s*DirectAdmin Daemon v([\\d.]+)",
     "type": "cpe"
   },
   "Django, html": {
     "alias": "cpe:/a:djangoproject:django",
-    "regexp": "(?:powered by <a[^>]+>Django ?([\\d.]+)?|<input[^>]*name=[\"']csrfmiddlewaretoken[\"'][^>]*>)",
+    "regex": "(?:powered by <a[^>]+>Django ?([\\d.]+)?|<input[^>]*name=[\"']csrfmiddlewaretoken[\"'][^>]*>)",
     "type": "cpe"
   },
   "Dojo, script": {
     "alias": "cpe:/a:dojotoolkit:dojo",
-    "regexp": "([\\d.]+)/dojo/dojo(?:\\.xd)?\\.js",
+    "regex": "([\\d.]+)/dojo/dojo(?:\\.xd)?\\.js",
     "type": "cpe"
   },
   "Doxygen, html": {
     "alias": "Doxygen",
-    "regexp": "(?:<!-- Generated by Doxygen ([\\d.]+)|<link[^>]+doxygen\\.css)",
+    "regex": "(?:<!-- Generated by Doxygen ([\\d.]+)|<link[^>]+doxygen\\.css)",
     "type": "software"
   },
   "Drupal, headers": {
     "alias": "Drupal",
-    "regexp": "X-Generator:\\s*Drupal(?:\\s([\\d.]+))?",
+    "regex": "X-Generator:\\s*Drupal(?:\\s([\\d.]+))?",
     "type": "software"
   },
   "ESERV-10, headers": {
     "alias": "eserv",
-    "regexp": "Server:\\s*ESERV-10(?:/([\\d.]+))?",
+    "regex": "Server:\\s*ESERV-10(?:/([\\d.]+))?",
     "type": "software"
   },
   "EmbedThis Appweb, headers": {
     "alias": "cpe:/a:embedthis:appweb",
-    "regexp": "Server:\\s*Mbedthis-Appweb(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Mbedthis-Appweb(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Embedthis-http, headers": {
     "alias": "cpe:/a:embedthis:appweb",
-    "regexp": "Server:\\s*Embedthis-http(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Embedthis-http(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "FancyBox, script": {
     "alias": "jQuery FancyBox",
-    "regexp": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$",
+    "regex": "jquery\\.fancybox(?:\\.pack|\\.min)?\\.js(?:\\?v=([\\d.]+))?$",
     "type": "software"
   },
   "FlashCom, headers": {
     "alias": "cpe:/a:macromedia:flash_communication_server",
-    "regexp": "Server:\\s*FlashCom/?([\\d\\.]+)?",
+    "regex": "Server:\\s*FlashCom/?([\\d\\.]+)?",
     "type": "cpe"
   },
   "Flask, headers": {
     "alias": "Werkzeug",
-    "regexp": "Server:\\s*Werkzeug/?([\\d\\.]+)?",
+    "regex": "Server:\\s*Werkzeug/?([\\d\\.]+)?",
     "type": "software"
   },
   "FlexCMP, headers": {
     "alias": "FlexCMP",
-    "regexp": "X-Powered-By:\\s*FlexCMP.+\\[v\\. ([\\d.]+)",
+    "regex": "X-Powered-By:\\s*FlexCMP.+\\[v\\. ([\\d.]+)",
     "type": "software"
   },
   "FlexCMP, html": {
     "alias": "FlexCMP",
-    "regexp": "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)",
+    "regex": "<!--[^>]+FlexCMP[^>v]+v\\. ([\\d.]+)",
     "type": "software"
   },
   "FreeBSD, headers": {
     "alias": "cpe:/o:freebsd:freebsd",
-    "regexp": "Server:\\s*FreeBSD(?: ([\\d.]+))?",
+    "regex": "Server:\\s*FreeBSD(?: ([\\d.]+))?",
     "type": "cpe"
   },
   "Fusion Ads, script": {
     "alias": "Fusion Ads",
-    "regexp": "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?",
+    "regex": "^[^\\/]*//[ac]dn\\.fusionads\\.net/(?:api/([\\d.]+)/)?",
     "type": "software"
   },
   "GitPHP, html": {
     "alias": "GitPHP",
-    "regexp": "<!-- gitphp web interface ([\\d.]+)",
+    "regex": "<!-- gitphp web interface ([\\d.]+)",
     "type": "software"
   },
   "GlassFish, headers": {
     "alias": "cpe:/a:oracle:glassfish_server",
-    "regexp": "Server:\\s*GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?",
+    "regex": "Server:\\s*GlassFish(?: Server)?(?: Open Source Edition)?(?: ?/?([\\d.]+))?",
     "type": "cpe"
   },
   "Gogs, html": {
     "alias": "cpe:/a:gogits:gogs",
-    "regexp": "<div class=\"ui left\">\n\\s+\u00a9 \\d{4} Gogs Version: ([\\d.]+) Page:",
+    "regex": "<div class=\"ui left\">\n\\s+\u00a9 \\d{4} Gogs Version: ([\\d.]+) Page:",
     "type": "cpe"
   },
   "Google Maps, script": {
     "alias": "Google Maps Api",
-    "regexp": "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)",
+    "regex": "(?:maps\\.google\\.com/maps\\?file=api(?:&v=([\\d.]+))?|maps\\.google\\.com/maps/api/staticmap)",
     "type": "software"
   },
   "Google PageSpeed, headers": {
     "alias": "cpe:/a:google:mod_pagespeed",
-    "regexp": "X-Mod-Pagespeed:\\s*([\\d.]+)",
+    "regex": "X-Mod-Pagespeed:\\s*([\\d.]+)",
     "type": "cpe"
   },
   "Grandstream, headers": {
     "alias": "cpe:/o:grandstream:gxv_device_firmware",
-    "regexp": "Server:\\s*Grandstream\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*Grandstream\\/?([\\d\\.]+)?",
     "type": "cpe"
   },
   "HERE, script": {
     "alias": "HERE Maps JS API",
-    "regexp": "https?://js\\.cit\\.api\\.here\\.com/se/([\\d.]+)\\/",
+    "regex": "https?://js\\.cit\\.api\\.here\\.com/se/([\\d.]+)\\/",
     "type": "software"
   },
   "HHVM, headers": {
     "alias": "cpe:/a:facebook:hhvm",
-    "regexp": "X-Powered-By:\\s*HHVM/?([\\d.]+)?",
+    "regex": "X-Powered-By:\\s*HHVM/?([\\d.]+)?",
     "type": "cpe"
   },
   "HP ChaiServer, headers": {
     "alias": "HP ChaiServer",
-    "regexp": "Server:\\s*HP-Chai(?:Server|SOE)(?:/([\\d.]+))?",
+    "regex": "Server:\\s*HP-Chai(?:Server|SOE)(?:/([\\d.]+))?",
     "type": "software"
   },
   "HP Compact Server, headers": {
     "alias": "HP Compact Server",
-    "regexp": "Server:\\s*HP_Compact_Server(?:/([\\d.]+))?",
+    "regex": "Server:\\s*HP_Compact_Server(?:/([\\d.]+))?",
     "type": "software"
   },
   "HP iLO, headers": {
     "alias": "cpe:/o:hp:integrated_lights-out",
-    "regexp": "Server:\\s*HP-iLO-Server(?:/([\\d.]+))?",
+    "regex": "Server:\\s*HP-iLO-Server(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "HTTP-Server, headers": {
     "alias": "example.com HTTP-Server",
-    "regexp": "Server:\\s*(?:^|[^-])\bHTTP-Server(?: ?/?V?([\\d.]+))?",
+    "regex": "Server:\\s*(?:^|[^-])\bHTTP-Server(?: ?/?V?([\\d.]+))?",
     "type": "software"
   },
   "Handlebars, script": {
     "alias": "Handlebars js",
-    "regexp": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js",
+    "regex": "handlebars(?:\\.runtime)?(?:-v([\\d.]+?))?(?:\\.min)?\\.js",
     "type": "software"
   },
   "Happy ICS Server, headers": {
     "alias": "Happy ICS",
-    "regexp": "Server:\\s*Happy ICS Server(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Happy ICS Server(?:/([\\d.]+))?",
     "type": "software"
   },
   "Hiawatha, headers": {
     "alias": "Hiawatha",
-    "regexp": "Server:\\s*Hiawatha v([\\d.]+)",
+    "regex": "Server:\\s*Hiawatha v([\\d.]+)",
     "type": "software"
   },
   "Highlight.js, script": {
     "alias": "Highlight.js",
-    "regexp": "/highlight\\.js/[\\d.]+?/highlight\\.min\\.js",
+    "regex": "/highlight\\.js/[\\d.]+?/highlight\\.min\\.js",
     "type": "software"
   },
   "Hogan.js, script": {
     "alias": "Hogan.js",
-    "regexp": "([\\d.]+)/hogan(?:\\.min)?\\.js",
+    "regex": "([\\d.]+)/hogan(?:\\.min)?\\.js",
     "type": "software"
   },
   "IBM HTTP Server, headers": {
     "alias": "IBM HTTP Server",
-    "regexp": "Server:\\s*IBM_HTTP_Server(?:/([\\d.]+))?",
+    "regex": "Server:\\s*IBM_HTTP_Server(?:/([\\d.]+))?",
     "type": "software"
   },
   "IBM Tivoli Storage Manager, headers": {
     "alias": "cpe:/a:ibm:tivoli_storage_manager",
-    "regexp": "Server:\\s*TSM_HTTP(?:/([\\d.]+))?",
+    "regex": "Server:\\s*TSM_HTTP(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "IIS, headers": {
     "alias": "cpe:/a:microsoft:iis",
-    "regexp": "Server:\\s*IIS(?:/([\\d.]+))?",
+    "regex": "Server:\\s*IIS(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Indico, html": {
     "alias": "CERN Indico",
-    "regexp": "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?",
+    "regex": "Powered by\\s+(?:CERN )?<a href=\"http://(?:cdsware\\.cern\\.ch/indico/|indico-software\\.org|cern\\.ch/indico)\">(?:CDS )?Indico( [\\d\\.]+)?",
     "type": "software"
   },
   "Indy, headers": {
     "alias": "Indy",
-    "regexp": "Server:\\s*Indy(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Indy(?:/([\\d.]+))?",
     "type": "software"
   },
   "Intel Active Management Technology, headers": {
     "alias": "cpe:/o:intel:active_management_technology_firmware",
-    "regexp": "Server:\\s*Intel\\(R\\) Active Management Technology(?: ([\\d.]+))?",
+    "regex": "Server:\\s*Intel\\(R\\) Active Management Technology(?: ([\\d.]+))?",
     "type": "cpe"
   },
   "Invenio, html": {
     "alias": "CDS Invenio",
-    "regexp": "(?:Powered by|System)\\s+(?:CERN )?<a (?:class=\"footer\" )?href=\"http://(?:cdsware\\.cern\\.ch(?:/invenio)?|invenio-software\\.org|cern\\.ch/invenio)(?:/)?\">(?:CDS )?Invenio</a>\\s*v?([\\d\\.]+)?",
+    "regex": "(?:Powered by|System)\\s+(?:CERN )?<a (?:class=\"footer\" )?href=\"http://(?:cdsware\\.cern\\.ch(?:/invenio)?|invenio-software\\.org|cern\\.ch/invenio)(?:/)?\">(?:CDS )?Invenio</a>\\s*v?([\\d\\.]+)?",
     "type": "software"
   },
   "JBoss Application Server, headers": {
     "alias": "cpe:/a:redhat:jboss_community_application_server",
-    "regexp": "X-Powered-By:\\s*JBoss(?:-([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*JBoss(?:-([\\d.]+))?",
     "type": "cpe"
   },
   "JBoss Web, headers": {
     "alias": "cpe:/a:redhat:jboss_enterprise_web_server",
-    "regexp": "X-Powered-By:\\s*JBossWeb(?:-([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*JBossWeb(?:-([\\d.]+))?",
     "type": "cpe"
   },
   "JC-HTTPD, headers": {
     "alias": "JC-HTTPD",
-    "regexp": "Server:\\s*JC-HTTPD(?:/([\\d.]+))?",
+    "regex": "Server:\\s*JC-HTTPD(?:/([\\d.]+))?",
     "type": "software"
   },
   "Java Servlet, headers": {
     "alias": "Java Servlet",
-    "regexp": "X-Powered-By:\\s*Servlet(?:.([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*Servlet(?:.([\\d.]+))?",
     "type": "software"
   },
   "JavaServer Faces, headers": {
     "alias": "cpe:/a:oracle:mojarra",
-    "regexp": "X-Powered-By:\\s*JSF(?:/([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*JSF(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "JavaServer Pages, headers": {
     "alias": "JavaServer Pages",
-    "regexp": "X-Powered-By:\\s*JSP(?:/([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*JSP(?:/([\\d.]+))?",
     "type": "software"
   },
   "Jenkins, headers": {
     "alias": "cpe:/a:jenkins:jenkins",
-    "regexp": "X-Jenkins:\\s*([\\d\\.]+)",
+    "regex": "X-Jenkins:\\s*([\\d\\.]+)",
     "type": "cpe"
   },
   "Joomla, headers": {
     "alias": "joomla",
-    "regexp": "X-Content-Encoded-By:\\s*Joomla! ([\\d.]+)",
+    "regex": "X-Content-Encoded-By:\\s*Joomla! ([\\d.]+)",
     "type": "software"
   },
   "KS_HTTP, headers": {
     "alias": "KS HTTP",
-    "regexp": "Server:\\s*KS_HTTP\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*KS_HTTP\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "Kibana, headers": {
     "alias": "cpe:/a:elasticsearch:kibana",
-    "regexp": "kbn-version:\\s*^([\\d.]+)$",
+    "regex": "kbn-version:\\s*^([\\d.]+)$",
     "type": "cpe"
   },
   "KineticJS, script": {
     "alias": "KineticJS",
-    "regexp": "kinetic(?:-v?([\\d.]+))?(?:\\.min)?\\.js",
+    "regex": "kinetic(?:-v?([\\d.]+))?(?:\\.min)?\\.js",
     "type": "software"
   },
   "Kohana, headers": {
     "alias": "Kohana",
-    "regexp": "X-Powered-By:\\s*Kohana Framework ([\\d.]+)",
+    "regex": "X-Powered-By:\\s*Kohana Framework ([\\d.]+)",
     "type": "software"
   },
   "Koken, script": {
     "alias": "Koken",
-    "regexp": "koken(?:\\.js\\?([\\d.]+)|/storage)",
+    "regex": "koken(?:\\.js\\?([\\d.]+)|/storage)",
     "type": "software"
   },
   "LabVIEW, headers": {
     "alias": "cpe:/a:ni:labview",
-    "regexp": "Server:\\s*LabVIEW(?:/([\\d\\.]+))?",
+    "regex": "Server:\\s*LabVIEW(?:/([\\d\\.]+))?",
     "type": "cpe"
   },
   "Liferay, headers": {
     "alias": "cpe:/a:liferay:liferay_portal",
-    "regexp": "Liferay-Portal:\\s*[a-z\\s]+([\\d.]+)",
+    "regex": "Liferay-Portal:\\s*[a-z\\s]+([\\d.]+)",
     "type": "cpe"
   },
   "LinkSmart, script": {
     "alias": "LinkSmart",
-    "regexp": "^https?://cdn\\.linksmart\\.com/linksmart_([\\d.]+?)(?:\\.min)?\\.js",
+    "regex": "^https?://cdn\\.linksmart\\.com/linksmart_([\\d.]+?)(?:\\.min)?\\.js",
     "type": "software"
   },
   "Logitech Media Server, headers": {
     "alias": "Logitech Media Server",
-    "regexp": "Server:\\s*Logitech Media Server(?: \\(([\\d\\.]+))?",
+    "regex": "Server:\\s*Logitech Media Server(?: \\(([\\d\\.]+))?",
     "type": "software"
   },
   "Lua, headers": {
     "alias": "cpe:/a:lua:lua",
-    "regexp": "X-Powered-By:\\s*\bLua(?: ([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*\bLua(?: ([\\d.]+))?",
     "type": "cpe"
   },
   "MediaTomb, headers": {
     "alias": "MediaTomb",
-    "regexp": "Server:\\s*MediaTomb(?:/([\\d.]+))?",
+    "regex": "Server:\\s*MediaTomb(?:/([\\d.]+))?",
     "type": "software"
   },
   "Microsoft HTTPAPI, headers": {
     "alias": "Microsoft HTTPAPI",
-    "regexp": "Server:\\s*Microsoft-HTTPAPI(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Microsoft-HTTPAPI(?:/([\\d.]+))?",
     "type": "software"
   },
   "MiniServ, headers": {
     "alias": "MiniServ",
-    "regexp": "Server:\\s*MiniServ\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*MiniServ\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "MochiWeb, headers": {
     "alias": "cpe:/a:mochiweb_project:mochiweb",
-    "regexp": "Server:\\s*MochiWeb(?:/([\\d.]+))?",
+    "regex": "Server:\\s*MochiWeb(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Monkey HTTP Server, headers": {
     "alias": "cpe:/a:monkey-project:monkey_http_daemon",
-    "regexp": "Server:\\s*Monkey/?([\\d.]+)?",
+    "regex": "Server:\\s*Monkey/?([\\d.]+)?",
     "type": "cpe"
   },
   "Motion-httpd, headers": {
     "alias": "Motion-httpd",
-    "regexp": "Server:\\s*Motion-httpd(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Motion-httpd(?:/([\\d.]+))?",
     "type": "software"
   },
   "Moxa, headers": {
     "alias": "cpe:/h:moxa",
-    "regexp": "Server:\\s*MoxaHttp(?:/([\\d.]+))?",
+    "regex": "Server:\\s*MoxaHttp(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Nginx, headers": {
     "alias": "cpe:/a:nginx:nginx",
-    "regexp": "Server:\\s*nginx(?:/([\\d.]+))?",
+    "regex": "Server:\\s*nginx(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "OpenResty, headers": {
     "alias": "OpenResty",
-    "regexp": "Server:\\s*openresty(?:/([\\d.]+))?",
+    "regex": "Server:\\s*openresty(?:/([\\d.]+))?",
     "type": "software"
   },
   "OpenSSL, headers": {
     "alias": "OpenSSL",
-    "regexp": "Server:\\s*OpenSSL(?:/([\\d.]+[a-z]?))?",
+    "regex": "Server:\\s*OpenSSL(?:/([\\d.]+[a-z]?))?",
     "type": "software"
   },
   "Oracle Commerce, headers": {
     "alias": "cpe:/a:oracle:commerce_platform",
-    "regexp": "X-ATG-Version:\\s*(?:ATGPlatform/([\\d.]+))?",
+    "regex": "X-ATG-Version:\\s*(?:ATGPlatform/([\\d.]+))?",
     "type": "cpe"
   },
   "Oracle HTTP Server, headers": {
     "alias": "cpe:/a:oracle:http_server",
-    "regexp": "Server:\\s*Oracle-HTTP-Server(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Oracle-HTTP-Server(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Outlook Web App, html": {
     "alias": "OWA",
-    "regexp": "<link\\s[^>]*href=\"[^\"]*?([\\d.]+)/themes/resources/owafont\\.css",
+    "regex": "<link\\s[^>]*href=\"[^\"]*?([\\d.]+)/themes/resources/owafont\\.css",
     "type": "software"
   },
+  "PHP": {
+        "regex": "PHP/([\\d.]+)",
+        "alias": "cpe:/a:php:php",
+        "type": "cpe"
+   },
   "PHP, headers": {
     "alias": "cpe:/a:php:php",
-    "regexp": "Server:\\s*php/?([\\d.]+)?|X-Powered-By:\\s*php/?([\\d.]+)?",
+    "regex": "Server:\\s*php/?([\\d.]+)?|X-Powered-By:\\s*php/?([\\d.]+)?",
     "type": "cpe"
   },
   "PerfSONAR-PS, headers": {
     "alias": "PerfSONAR PS",
-    "regexp": "User-agent:\\s*perfSONAR-PS/?([\\d\\.]+)?",
+    "regex": "User-agent:\\s*perfSONAR-PS/?([\\d\\.]+)?",
     "type": "software"
   },
   "Perl, headers": {
     "alias": "Perl",
-    "regexp": "Server:\\s*\bPerl\b(?: ?/?v?([\\d.]+))?",
+    "regex": "Server:\\s*\bPerl\b(?: ?/?v?([\\d.]+))?",
     "type": "software"
   },
   "Petrojs, script": {
     "alias": "Petrojs",
-    "regexp": "(?:/([\\d.]+)/)?petrojs(?:\\.min)?\\.js",
+    "regex": "(?:/([\\d.]+)/)?petrojs(?:\\.min)?\\.js",
     "type": "software"
   },
   "Python, headers": {
     "alias": "Python",
-    "regexp": "Server:\\s*(?:^|\\s)Python(?:/([\\d.]+))?",
+    "regex": "Server:\\s*(?:^|\\s)Python(?:/([\\d.]+))?",
     "type": "software"
   },
   "RAID HTTPServer, headers": {
     "alias": "RAID HTTPServer",
-    "regexp": "Server:\\s*RAID HTTPServer(?:/([\\d.]+))?",
+    "regex": "Server:\\s*RAID HTTPServer(?:/([\\d.]+))?",
     "type": "software"
   },
   "Rapid Logic, headers": {
     "alias": "Rapid Logic",
-    "regexp": "Server:\\s*Rapid Logic(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Rapid Logic(?:/([\\d.]+))?",
     "type": "software"
   },
   "React, script": {
     "alias": "React",
-    "regexp": "/([\\d.]+)/react(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+)/react(?:\\.min)?\\.js",
     "type": "software"
   },
   "Ruby on Rails, headers": {
     "alias": "cpe:/a:rubyonrails:ruby_on_rails",
-    "regexp": "X-Powered-By:\\s*(?:mod_rails|mod_rack|Phusion[\\._ ]Passenger)(?: \\(mod_rails/mod_rack\\))?(?: ?/?([\\d\\.]+))?",
+    "regex": "X-Powered-By:\\s*(?:mod_rails|mod_rack|Phusion[\\._ ]Passenger)(?: \\(mod_rails/mod_rack\\))?(?: ?/?([\\d\\.]+))?",
     "type": "cpe"
   },
   "SUSE, headers": {
     "alias": "cpe:/o:suse:linux_enterprise_server",
-    "regexp": "Server:\\s*SUSE(?:/?\\s?-?([\\d.]+))?|X-Powered-By:\\s*SUSE(?:/?\\s?-?([\\d.]+))?",
+    "regex": "Server:\\s*SUSE(?:/?\\s?-?([\\d.]+))?|X-Powered-By:\\s*SUSE(?:/?\\s?-?([\\d.]+))?",
     "type": "cpe"
   },
   "Schneider Web Server, headers": {
     "alias": "Schneider Web Server",
-    "regexp": "Server:\\s*Schneider-WEB(?:/V?([\\d.]+))?",
+    "regex": "Server:\\s*Schneider-WEB(?:/V?([\\d.]+))?",
     "type": "software"
   },
   "Sentinel Keys Server, headers": {
     "alias": "Sentinel Keys Server",
-    "regexp": "Server:\\s*SentinelKeysServer\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*SentinelKeysServer\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "Sentinel Protection Server, headers": {
     "alias": "Sentinel Protection Server",
-    "regexp": "Server:\\s*SentinelProtectionServer\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*SentinelProtectionServer\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "Shapecss, script": {
     "alias": "Shapecss",
-    "regexp": "/([\\d.]+)/shapecss(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+)/shapecss(?:\\.min)?\\.js",
     "type": "software"
   },
   "Shopware, html": {
     "alias": "Shopware",
-    "regexp": "<title>Shopware ([\\d\\.]+) [^<]+",
+    "regex": "<title>Shopware ([\\d\\.]+) [^<]+",
     "type": "software"
   },
   "SimpleHTTP, headers": {
     "alias": "SimpleHTTP",
-    "regexp": "Server:\\s*SimpleHTTP(?:/([\\d.]+))?",
+    "regex": "Server:\\s*SimpleHTTP(?:/([\\d.]+))?",
     "type": "software"
   },
   "SonarQubes, html": {
     "alias": "SonarQubes",
-    "regexp": "<link href=\"/css/sonar\\.css?v=([\\d.]+)",
+    "regex": "<link href=\"/css/sonar\\.css?v=([\\d.]+)",
     "type": "software"
   },
   "SonarQubes, script": {
     "alias": "SonarQubes",
-    "regexp": "^/js/bundles/sonar\\.js?v=([\\d.]+)$",
+    "regex": "^/js/bundles/sonar\\.js?v=([\\d.]+)$",
     "type": "software"
   },
   "Splunk, html": {
     "alias": "cpe:/a:splunk:splunk",
-    "regexp": "<p class=\"footer\">&copy; [-\\d]+ Splunk Inc\\.(?: Splunk ([\\d\\.]+(?: build [\\d\\.]*\\d)?))?[^<]*</p>",
+    "regex": "<p class=\"footer\">&copy; [-\\d]+ Splunk Inc\\.(?: Splunk ([\\d\\.]+(?: build [\\d\\.]*\\d)?))?[^<]*</p>",
     "type": "cpe"
   },
   "SunOS, headers": {
     "alias": "cpe:/o:sun:sunos",
-    "regexp": "Server:\\s*SunOS( [\\d\\.]+)?|Servlet-engine:\\s*SunOS( [\\d\\.]+)?",
+    "regex": "Server:\\s*SunOS( [\\d\\.]+)?|Servlet-engine:\\s*SunOS( [\\d\\.]+)?",
     "type": "cpe"
   },
   "TeamCity, html": {
     "alias": "cpe:/a:jetbrains:teamcity",
-    "regexp": "<span class=\"versionTag\"><span class=\"vWord\">Version</span> ([\\d\\.]+)",
+    "regex": "<span class=\"versionTag\"><span class=\"vWord\">Version</span> ([\\d\\.]+)",
     "type": "cpe"
   },
   "TornadoServer, headers": {
     "alias": "cpe:/a:tornadoweb:tornado",
-    "regexp": "Server:\\s*TornadoServer(?:/([\\d.]+))?",
+    "regex": "Server:\\s*TornadoServer(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Trac, html": {
     "alias": "cpe:/a:edgewall_software:trac",
-    "regexp": "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?",
+    "regex": "Powered by <a href=\"[^\"]*\"><strong>Trac(?:[ /]([\\d.]+))?",
     "type": "cpe"
   },
   "TwistedWeb, headers": {
     "alias": "cpe:/a:twistedmatrix:twistedweb",
-    "regexp": "Server:\\s*TwistedWeb(?:/([\\d.]+))?",
+    "regex": "Server:\\s*TwistedWeb(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "Vue.js, script": {
     "alias": "Vue.js",
-    "regexp": "/([\\d.]+)/vue(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+)/vue(?:\\.min)?\\.js",
     "type": "software"
   },
   "W3 Total Cache, headers": {
     "alias": "cpe:/a:w3edge:total_cache",
-    "regexp": "X-Powered-By:\\s*W3 Total Cache(?:/([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*W3 Total Cache(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "WP Rocket, headers": {
     "alias": "WP Rocket",
-    "regexp": "X-Powered-By:\\s*WP Rocket(?:/([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*WP Rocket(?:/([\\d.]+))?",
     "type": "software"
   },
   "Webs, headers": {
     "alias": "Webs",
-    "regexp": "Server:\\s*Webs\\.com/?([\\d\\.]+)?",
+    "regex": "Server:\\s*Webs\\.com/?([\\d\\.]+)?",
     "type": "software"
   },
   "Winstone Servlet Container, headers": {
     "alias": "cpe:/a:jenkins:jenkins",
-    "regexp": "Server:\\s*Winstone Servlet (?:Container|Engine) v?([\\d.]+)?|X-Powered-By:\\s*Winstone(?:.([\\d.]+))?",
+    "regex": "Server:\\s*Winstone Servlet (?:Container|Engine) v?([\\d.]+)?|X-Powered-By:\\s*Winstone(?:.([\\d.]+))?",
     "type": "cpe"
   },
   "Wowza Media Server, html": {
     "alias": "Wowza Streaming Engine",
-    "regexp": "<title>Wowza Media Server \\d+ ((?:\\w+ Edition )?\\d+\\.[\\d\\.]+(?: build\\d+)?)?",
+    "regex": "<title>Wowza Media Server \\d+ ((?:\\w+ Edition )?\\d+\\.[\\d\\.]+(?: build\\d+)?)?",
     "type": "software"
   },
   "XAMPP, html": {
     "alias": "cpe:/a:apache_friends:xampp",
-    "regexp": "<title>XAMPP(?: Version ([\\d\\.]+))?</title>",
+    "regex": "<title>XAMPP(?: Version ([\\d\\.]+))?</title>",
     "type": "cpe"
   },
   "XRegExp, script": {
     "alias": "XRegExp",
-    "regexp": "/([\\d.]+)/xregexp(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+)/xregexp(?:\\.min)?\\.js",
     "type": "software"
   },
   "Xitami, headers": {
     "alias": "cpe:/a:imatix:xitami",
-    "regexp": "Server:\\s*Xitami(?:/([\\d.]+))?",
+    "regex": "Server:\\s*Xitami(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "YUI Doc, html": {
     "alias": "YUI Doc",
-    "regexp": "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)",
+    "regex": "(?:<html[^>]* yuilibrary\\.com/rdf/[\\d.]+/yui\\.rdf|<body[^>]+class=\"yui3-skin-sam)",
     "type": "software"
   },
   "Yaws, headers": {
     "alias": "cpe:/a:yaws:yaws",
-    "regexp": "Server:\\s*Yaws(?: ([\\d.]+))?",
+    "regex": "Server:\\s*Yaws(?: ([\\d.]+))?",
     "type": "cpe"
   },
   "cPanel, headers": {
     "alias": "cpe:/a:cpanel:cpanel",
-    "regexp": "Server:\\s*cpsrvd/([\\d.]+)",
+    "regex": "Server:\\s*cpsrvd/([\\d.]+)",
     "type": "cpe"
   },
   "debut, headers": {
     "alias": "debut",
-    "regexp": "Server:\\s*debut\\/?([\\d\\.]+)?",
+    "regex": "Server:\\s*debut\\/?([\\d\\.]+)?",
     "type": "software"
   },
   "eDevice SmartStack, headers": {
     "alias": "eDevice SmartStack",
-    "regexp": "Server:\\s*eDevice SmartStack(?: ?/?([\\d.]+))?",
+    "regex": "Server:\\s*eDevice SmartStack(?: ?/?([\\d.]+))?",
     "type": "software"
   },
   "eHTTP, headers": {
     "alias": "eHTTP",
-    "regexp": "Server:\\s*\beHTTP(?: v?([\\d\\.]+))?",
+    "regex": "Server:\\s*\beHTTP(?: v?([\\d\\.]+))?",
     "type": "software"
   },
   "gitlist, html": {
     "alias": "gitlist",
-    "regexp": "<p>Powered by <a[^>]+>GitList ([\\d.]+)",
+    "regex": "<p>Powered by <a[^>]+>GitList ([\\d.]+)",
     "type": "software"
   },
   "gitweb, html": {
     "alias": "gitweb",
-    "regexp": "<!-- git web interface version ([\\d.]+)?",
+    "regex": "<!-- git web interface version ([\\d.]+)?",
     "type": "software"
   },
   "gunicorn, headers": {
     "alias": "gunicorn",
-    "regexp": "Server:\\s*gunicorn(?:/([\\d.]+))?",
+    "regex": "Server:\\s*gunicorn(?:/([\\d.]+))?",
     "type": "software"
   },
   "jQuery, script": {
     "alias": "jquery",
-    "regexp": "/([\\d.]+)/jquery(?:\\.min)?\\.js",
+    "regex": "/([\\d.]+)/jquery(?:\\.min)?\\.js",
     "type": "software"
   },
   "jQuery Mobile, script": {
     "alias": "jQuery Mobile",
-    "regexp": "jquery\\.mobile(?:-([\\d.]+rc\\d))?.*\\.js(?:\\?ver=([\\d.]+))??\\1:\\2",
+    "regex": "jquery\\.mobile(?:-([\\d.]+rc\\d))?.*\\.js(?:\\?ver=([\\d.]+))??\\1:\\2",
     "type": "software"
   },
   "jQuery UI, script": {
     "alias": "jquery-ui",
-    "regexp": "([\\d.]+)/jquery-ui(?:\\.min)?\\.js",
+    "regex": "([\\d.]+)/jquery-ui(?:\\.min)?\\.js",
     "type": "software"
   },
   "libwww-perl-daemon, headers": {
     "alias": "libwww-perl-daemon",
-    "regexp": "Server:\\s*libwww-perl-daemon(?:/([\\d\\.]+))?",
+    "regex": "Server:\\s*libwww-perl-daemon(?:/([\\d\\.]+))?",
     "type": "software"
   },
   "lighttpd, headers": {
     "alias": "cpe:/a:lighttpd:lighttpd",
-    "regexp": "Server:\\s*lighttpd(?:/([\\d.]+))?",
+    "regex": "Server:\\s*lighttpd(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "mini_httpd, headers": {
     "alias": "cpe:/a:acme:mini_httpd",
-    "regexp": "Server:\\s*mini_httpd(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mini_httpd(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "mod_auth_pam, headers": {
     "alias": "mod_auth_pam",
-    "regexp": "Server:\\s*mod_auth_pam(?:/([\\d\\.]+))?",
+    "regex": "Server:\\s*mod_auth_pam(?:/([\\d\\.]+))?",
     "type": "software"
   },
   "mod_dav, headers": {
     "alias": "mod_dav",
-    "regexp": "Server:\\s*\b(?:mod_)?DAV\b(?:/([\\d.]+))?",
+    "regex": "Server:\\s*\b(?:mod_)?DAV\b(?:/([\\d.]+))?",
     "type": "software"
   },
   "mod_fastcgi, headers": {
     "alias": "mod_fastcgi",
-    "regexp": "Server:\\s*mod_fastcgi(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mod_fastcgi(?:/([\\d.]+))?",
     "type": "software"
   },
   "mod_jk, headers": {
     "alias": "mod_jk",
-    "regexp": "Server:\\s*mod_jk(?:/([\\d\\.]+))?",
+    "regex": "Server:\\s*mod_jk(?:/([\\d\\.]+))?",
     "type": "software"
   },
   "mod_perl, headers": {
     "alias": "cpe:/a:apache:mod_perl",
-    "regexp": "Server:\\s*mod_perl(?:/([\\d\\.]+))?",
+    "regex": "Server:\\s*mod_perl(?:/([\\d\\.]+))?",
     "type": "cpe"
   },
   "mod_python, headers": {
     "alias": "cpe:/a:apache:mod_python",
-    "regexp": "Server:\\s*mod_python(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mod_python(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "mod_rack, headers": {
     "alias": "cpe:/a:apache:mod_rack",
-    "regexp": "Server:\\s*mod_rack(?:/([\\d.]+))?|X-Powered-By:\\s*mod_rack(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mod_rack(?:/([\\d.]+))?|X-Powered-By:\\s*mod_rack(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "mod_rails, headers": {
     "alias": "cpe:/a:apache:mod_rails",
-    "regexp": "Server:\\s*mod_rails(?:/([\\d.]+))?|X-Powered-By:\\s*mod_rails(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mod_rails(?:/([\\d.]+))?|X-Powered-By:\\s*mod_rails(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "mod_ssl, headers": {
     "alias": "cpe:/a:modssl:mod_ssl",
-    "regexp": "Server:\\s*mod_ssl(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mod_ssl(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "mod_wsgi, headers": {
     "alias": "cpe:/a:modwsgi:mod_wsgi",
-    "regexp": "Server:\\s*mod_wsgi(?:/([\\d.]+))?|X-Powered-By:\\s*mod_wsgi(?:/([\\d.]+))?",
+    "regex": "Server:\\s*mod_wsgi(?:/([\\d.]+))?|X-Powered-By:\\s*mod_wsgi(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "phpMyAdmin, html": {
     "alias": "cpe:/a:phpmyadmin:phpmyadmin",
-    "regexp": "(?: \\| phpMyAdmin ([\\d.]+)<\\/title>|PMA_sendHeaderLocation\\(|<link [^>]*href=\"[^\"]*phpmyadmin\\.css\\.php)",
+    "regex": "(?: \\| phpMyAdmin ([\\d.]+)<\\/title>|PMA_sendHeaderLocation\\(|<link [^>]*href=\"[^\"]*phpmyadmin\\.css\\.php)",
     "type": "cpe"
   },
   "thttpd, headers": {
     "alias": "cpe:/a:acme_labs:thttpd",
-    "regexp": "Server:\\s*\bthttpd(?:/([\\d.]+))?",
+    "regex": "Server:\\s*\bthttpd(?:/([\\d.]+))?",
     "type": "cpe"
   },
   "uKnowva, headers": {
     "alias": "uKnowva",
-    "regexp": "X-Content-Encoded-By:\\s*uKnowva ([\\d.]+)",
+    "regex": "X-Content-Encoded-By:\\s*uKnowva ([\\d.]+)",
     "type": "software"
   },
   "wpCache, headers": {
     "alias": "wpCache",
-    "regexp": "X-Powered-By:\\s*wpCache(?:/([\\d.]+))?",
+    "regex": "X-Powered-By:\\s*wpCache(?:/([\\d.]+))?",
     "type": "software"
   },
   "Phusion Passenger": {
