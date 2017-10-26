@@ -534,6 +534,11 @@
     "regex": "<link\\s[^>]*href=\"[^\"]*?([\\d.]+)/themes/resources/owafont\\.css",
     "type": "software"
   },
+  "PHP": {
+        "regex": "PHP/([\\d.]+)",
+        "alias": "cpe:/a:php:php",
+        "type": "cpe"
+    },
   "PHP, headers": {
     "alias": "cpe:/a:php:php",
     "regex": "Server:\\s*php/?([\\d.]+)?|X-Powered-By:\\s*php/?([\\d.]+)?",
