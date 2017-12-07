@@ -752,7 +752,7 @@
   "jQuery, script": {
     "alias": "cpe:/a:jquery:jquery",
     "regex": "/([\\d.]+)/jquery(?:\\.min)?\\.js",
-    "type": "cpe"
+    "type": "software"
   },
   "jQuery Mobile, script": {
     "alias": "jQuery Mobile",
@@ -760,9 +760,9 @@
     "type": "software"
   },
   "jQuery UI, script": {
-    "alias": "jquery-ui",
+    "alias": "cpe:/a:jqueryui:jquery_ui",
     "regex": "([\\d.]+)/jquery-ui(?:\\.min)?\\.js",
-    "type": "software"
+    "type": "cpe"
   },
   "libwww-perl-daemon, headers": {
     "alias": "libwww-perl-daemon",
