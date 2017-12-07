@@ -750,9 +750,9 @@
     "type": "software"
   },
   "jQuery, script": {
-    "alias": "jquery",
+    "alias": "cpe:/a:jquery:jquery",
     "regex": "/([\\d.]+)/jquery(?:\\.min)?\\.js",
-    "type": "software"
+    "type": "cpe"
   },
   "jQuery Mobile, script": {
     "alias": "jQuery Mobile",
