@@ -944,11 +944,6 @@
     "regex": "<link\\s[^>]*href=\"[^\"]*?([\\d.]+)/themes/resources/owafont\\.css",
     "type": "software"
   },
-  "PHP": {
-    "regex": "PHP/([\\d.]+)",
-    "alias": "cpe:/a:php:php",
-    "type": "cpe"
-  },
   "PerfSONAR-PS, headers": {
     "alias": "PerfSONAR PS",
     "regex": "User-agent:\\s*perfSONAR-PS/?([\\d\\.]+)?",
