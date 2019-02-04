@@ -835,9 +835,9 @@
     "type": "cpe"
   },
   "phpMyAdmin, html": {
-    "alias": "cpe:/a:phpmyadmin:phpmyadmin",
+    "alias": "phpmyadmin",
     "regex": "(?: \\| phpMyAdmin ([\\d.]+)<\\/title>|PMA_sendHeaderLocation\\(|<link [^>]*href=\"[^\"]*phpmyadmin\\.css\\.php)",
-    "type": "cpe"
+    "type": "software"
   },
   "thttpd, headers": {
     "alias": "cpe:/a:acme_labs:thttpd",
