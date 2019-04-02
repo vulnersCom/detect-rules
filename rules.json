@@ -1375,7 +1375,7 @@
     "type": "cpe"
   },
   "Jetty": {
-    "regex": "Jetty\\([v\\d.]+\\)",
+    "regex": "Jetty\\(([v\\d.]+)\\)",
     "alias": "cpe:/a:mortbay:jetty",
     "type": "cpe"
   },
