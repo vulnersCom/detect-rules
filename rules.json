@@ -754,11 +754,6 @@
     "regex": "jquery[.-]migrate(?:-([\\d.]+))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))??",
     "type": "software"
   },
-  "jQuery Mobile, script": {
-    "alias": "jQuery Mobile",
-    "regex": "(jquery[.-]mobile(?:-([\\d.]))?(?:\\.min)?|jquery\\.mobile(?:-([\\d.]+rc\\d))?.*)\\.js(?:\\?ver=([\\d.]+))??",
-    "type": "software"
-  },
   "jQuery-pjax, script": {
     "alias": "jQuery-pjax",
     "regex": "jquery[.-]pjax(?:-([\\d.]))?(?:\\.min)?\\.js(?:\\?ver=([\\d.]+))??",
