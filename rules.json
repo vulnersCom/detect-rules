@@ -486,7 +486,7 @@
   },
   "Nginx, headers": {
     "alias": "cpe:/a:nginx:nginx",
-    "regex": "Server:\\s*nginx(?:/([\\d.]+))?",
+    "regex": "Server:\\s*nginx(?:(?:-reuseport)?/([\\d.]+))?",
     "type": "cpe"
   },
   "OpenResty, headers": {
